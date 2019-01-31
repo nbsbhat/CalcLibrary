@@ -1,0 +1,20 @@
+
+D:\work>python -m venv calclibrary
+D:\work>.\calclibrary\Scripts\activate
+(calclibrary) D:\work>
+(calclibrary) D:\work>pip install flake8 pytest pytest-cov
+
+You are using pip version 9.0.1, however version 19.0.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(calclibrary) D:\work>python -m pip install --upgrade pip
+
+(calclibrary) D:\work>pip install flake8 pytest pytest-cov
+
+(calclibrary) D:\work>pip freeze > d:/git/calclibrary/requirements.txt
+
+(calclibrary) D:\work>cd \git\CalcLibrary
+(calclibrary) D:\git\CalcLibrary>flake8 --statistics
+
+(calclibrary) D:\git\CalcLibrary>pytest -v --cov
+
