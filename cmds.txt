@@ -18,3 +18,36 @@ You should consider upgrading via the 'python -m pip install --upgrade pip' comm
 
 (calclibrary) D:\git\CalcLibrary>pytest -v --cov
 
+(calclibrary) D:\git\CalcLibrary>pytest -v
+================================================= test session starts =================================================
+platform win32 -- Python 3.6.3, pytest-4.2.0, py-1.7.0, pluggy-0.8.1 -- d:\work\calclibrary\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\git\CalcLibrary, inifile:
+plugins: cov-2.6.1
+collected 2 items
+
+test_calculator.py::TestCalc::test_add PASSED                                                                    [ 50%]
+test_calculator.py::TestCalc::test_sub PASSED                                                                    [100%]
+
+============================================== 2 passed in 0.04 seconds ===============================================
+(calclibrary) D:\git\CalcLibrary>git commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(calclibrary) D:\git\CalcLibrary>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': nbsbhat
+Password for 'https://nbsbhat@github.com':
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.43 KiB | 487.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/nbsbhat/CalcLibrary
+   df52adf..de413a8  master -> master
+
+   
